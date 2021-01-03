@@ -1,0 +1,27 @@
+[
+  {
+    "_id": "01",
+    "name": "美投讲美股",
+    "url": "https://www.youtube.com/channel/UCBUH38E0ngqvmTqdchWunwQ",
+    "total_record": 10,
+    "success_rate": null,
+    "logo": null,
+    "comments": "财会背景, 硬核财报、基本面分析"
+  }, {
+    "_id": "02",
+    "name": "阳光财经",
+    "url": "https://www.youtube.com/channel/UC2I5em6UyBpQiO-8ZW0nV3w",
+    "total_record": 3,
+    "success_rate": null,
+    "logo": null,
+    "comments": "技术分析较强，月推三股"
+  }, {
+    "_id": "03",
+    "name": "我的投资笔记",
+    "url": "https://www.youtube.com/channel/UCUlhZapq9qAmdx-nkWBjsSw",
+    "total_record": 0,
+    "success_rate": null,
+    "logo": null,
+    "comments": "长为主，短为辅"
+  }
+]

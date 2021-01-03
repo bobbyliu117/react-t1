@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import logoIcon from './asset/img/chives.png';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div>
+      <header>
+        <div className="logo">
+          <img src={logoIcon} alt="Logo" />
+          <h2 style={{margin: '0 4px'}}>油TubeStock</h2>
+        </div>
       </header>
+      <main>
+        <section id="sec1">
+          <h3>Disclaimer</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe, sapiente velit? Veniam eaque laborum quisquam non neque nulla explicabo provident!</p>
+        </section>
+        <section></section>
+        <section></section>
+      </main>
+      <footer>
+        &copy; 2021 VG9 LAB
+      </footer>
     </div>
   );
 }
