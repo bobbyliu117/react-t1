@@ -1,0 +1,14 @@
+.channel-item {
+  padding: 8px 12px;
+  box-shadow: 2px 3px 4px 1px #66666650;
+  display: flex;
+  border-radius: 8px;
+  background-color: rgb(93, 196, 139);
+}
+.channel-item:hover { transform: scale(1.02)}
+.channel-item img {
+  width: 50px;
+  border-radius: 8px;
+  margin-right: 8px;
+  opacity: 0.9;
+}
