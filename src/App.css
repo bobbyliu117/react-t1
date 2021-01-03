@@ -21,3 +21,10 @@ section {
 #sec1 {
   background-color: lightseagreen;
 }
+
+.channels {
+  margin: 12px 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}

@@ -10,6 +10,7 @@ body {
 }
 
 h3 { margin: 0}
+a { text-decoration: none; color: white;}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
