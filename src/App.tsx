@@ -1,7 +1,9 @@
 import './App.css';
 import logoIcon from './asset/img/chives.png';
 import channelsData from './asset/data/channels.json';
+import articlesData from './asset/data/articles.json';
 import { ChannelListItem } from './components/channel-list-item.component';
+import {ArticleListItem} from './components/article-list-item/article-list-item.component';
 
 function App() {
   return (
@@ -23,7 +25,12 @@ function App() {
             {channelsData.map(channel => <ChannelListItem key={channel._id} channel={channel} />)}
           </div>
         </section>
-        <section></section>
+        <section>
+          <h3>Stock Reviews</h3>
+          <div className="articles">
+            {articlesData.map(article => <ArticleListItem key={article._id} article={article} />)}
+          </div>
+        </section>
       </main>
       <footer>
         &copy; 2021 VG9 LAB

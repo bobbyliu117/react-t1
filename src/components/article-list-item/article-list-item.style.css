@@ -1,0 +1,33 @@
+.article-list-item {
+  padding: 8px 12px;
+  box-shadow: 2px 3px 4px 1px #66666650;
+  display: flex;
+  border-radius: 8px;
+  background-color: rgb(84, 170, 250);
+}
+
+.article-list-item img {
+  width: 32px;
+  height: 32px;
+  color: lightgoldenrodyellow;
+  transform: scale(-1);
+  filter: brightness(1.2) drop-shadow(0 0 6px lightgoldenrodyellow);
+  border-radius: 8px;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  opacity: 0.9;
+}
+
+.remarks {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.tag {
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+.tag:hover { opacity: 0.8; }
