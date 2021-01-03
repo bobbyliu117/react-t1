@@ -6,9 +6,12 @@
   background-color: rgb(84, 170, 250);
 }
 
-.article-list-item:hover { transform: scale(1.01)}
 .article-list-item img {
-  width: 50px;
+  width: 32px;
+  height: 32px;
+  color: lightgoldenrodyellow;
+  transform: scale(-1);
+  filter: brightness(1.2) drop-shadow(0 0 6px lightgoldenrodyellow);
   border-radius: 8px;
   margin-right: 8px;
   margin-bottom: 12px;
@@ -23,8 +26,8 @@
 .tag {
   padding: 3px 8px;
   border-radius: 8px;
-  text-align: center;
-  vertical-align: middle;
+  font-size: 0.8rem;
   margin-right: 4px;
   margin-bottom: 4px;
 }
+.tag:hover { opacity: 0.8; }

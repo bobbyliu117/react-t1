@@ -35,7 +35,6 @@ function App() {
     <footer>
       <span className="b1">&copy; 2021 VG9 LAB</span>
       <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
     </footer>
   </>
 }
