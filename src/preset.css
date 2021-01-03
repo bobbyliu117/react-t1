@@ -10,6 +10,6 @@ body {
   color: white;
   background-color: lightgray;
 }
-
+p { margin: 0 0;}
 a { text-decoration: none; color: white; transition: all 0.2s; }
 a:hover { color: lightgoldenrodyellow; }

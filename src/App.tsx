@@ -1,5 +1,5 @@
 import logoImg from './assets/img/chives.png';
-import './app.css';
+import './App.css';
 import channelsData from './assets/data/channels.json';
 import articlesData from './assets/data/articles.json';
 import { ChannelItem } from './components/channel-item/channel-item.component';

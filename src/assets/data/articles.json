@@ -117,5 +117,21 @@
         "note": "疫苗分发;价值在季线下;应对Amazon表现良好"
       }
     ]
+  }, {
+    "_id": "a004",
+    "channel_id": "03",
+    "uploaded_at": 1609714570852,
+    "url": "https://www.youtube.com/watch?v=TZTaOkNExVw",
+    "note": null,
+    "remarks": [
+      {
+        "ticker": "PLTR",
+        "current_price": 23.72,
+        "recommend_price": null,
+        "prediction": 0.1,
+        "span": 5184000000,
+        "note": "长持;FDA 3年合同;US Army合同;替换成本高;2月底解禁回调"
+      }
+    ]
   }
 ]
